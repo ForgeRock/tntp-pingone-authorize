@@ -4,7 +4,7 @@
  * Copyright 2024 Ping Identity Corporation. All Rights Reserved
 -->
 
-# PingOne Authorize and PingAuthorize Nodes
+# PingOne Authorize Node
 
 The PingOne Authorize Node sends a decision request to a specified decision endpoint in your PingOne Authorize environment. These authorizations include:
 
