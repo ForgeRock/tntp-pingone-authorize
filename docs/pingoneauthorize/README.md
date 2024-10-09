@@ -50,9 +50,8 @@ The node searches the journey shared state for these attributes.
   </thead>
 
   <tr>
-    <td>PingOne Service</td>
-      <td>Service for PingOne, PingOne DaVinci API, PingOne Protect nodes, and PingOne Verify nodes
-      </td>
+    <td>PingOne Worker Service</td>
+      <td>Service for specific PingOne Worker application. </td>
   </tr>
   <tr>
     <td>Decision Endpoint ID</td>
