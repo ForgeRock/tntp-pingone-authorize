@@ -20,7 +20,6 @@ import javax.inject.Singleton;
 import org.forgerock.http.header.MalformedHeaderException;
 import org.forgerock.http.header.authorization.BearerToken;
 import org.forgerock.http.header.AuthorizationHeader;
-import org.forgerock.oauth2.core.AccessToken;
 import org.forgerock.http.protocol.Response;
 import org.forgerock.http.protocol.Request;
 import org.forgerock.http.protocol.Status;
@@ -28,8 +27,6 @@ import org.forgerock.http.Handler;
 import org.forgerock.json.JsonValue;
 import org.forgerock.openam.integration.pingone.api.PingOneWorkerService;
 import org.forgerock.services.context.RootContext;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * Service to integrate with PingOne Authorize APIs.
@@ -54,7 +51,7 @@ public class PingOnAuthorizeService {
      * the POST {{apiPath}}/environments/{{envID}}/decisionEndpoints/{{decisionEndpointID}} executes
      * a decision request against the decision endpoint specified by its ID in the request URL.
      *
-     * @param accessToken           The {@link AccessToken}
+     * @param accessToken           Access token
      * @param worker                The worker {@link PingOneWorkerService}
      * @param decisionEndpointID    The Decision Endpoint ID
      * @param decisionData          The data for the Parameters object
