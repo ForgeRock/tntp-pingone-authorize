@@ -52,7 +52,7 @@ import static java.util.Arrays.asList;
  * @since AM 5.5.0
  */
 public class PingOneAuthorizePlugin extends AbstractNodeAmPlugin {
-    protected static final String CURRENT_VERSION = "1.0.0";
+    protected static final String CURRENT_VERSION = "1.0.1";
     protected static final String LOG_APPENDER = "[Version: " + CURRENT_VERSION + "][Marketplace] ";
     private static final Logger logger = LoggerFactory.getLogger(PingOneAuthorizePlugin.class);
     private static final String LOGGER_PREFIX = "[PingOneAuthorizePlugin]" + PingOneAuthorizePlugin.LOG_APPENDER;
