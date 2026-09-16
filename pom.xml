@@ -15,7 +15,7 @@
     <artifactId>TNTPPingOneAuthorize</artifactId>
 
     <groupId>org.forgerock.am.marketplace</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>PingOneAuthorize</name>
     <description>PingOne Authorize Integration</description>
 
@@ -91,6 +91,10 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
